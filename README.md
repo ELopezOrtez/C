@@ -8,12 +8,10 @@ Objective:
 To practice my C fundamentals by doing the rock, paper, scissors project. By doing this project, I soldified core concepts like user input, arrays, loops, conditional logic and so forth.
 
 How to Run:
-1. Compile the program
-
+1. Compile the program:
 <br>gcc main.c -o main</br>
 
-2. Run the program
-
+2. Run the program:
 <br>./main</br>
 
 Result:
