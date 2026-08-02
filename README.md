@@ -9,9 +9,11 @@ To practice my C fundamentals by doing the rock, paper, scissors project. By doi
 
 How to Run:
 1. Compile the program
+
 <br>gcc main.c -o main</br>
 
 2. Run the program
+
 <br>./main</br>
 
 Result:
