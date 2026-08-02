@@ -41,10 +41,10 @@ int main() {
 
 void gameLogic() {
     char playerInput[10];
-    const char *choices[] = {"rock", "paper", "scissor"};
+    const char *choices[] = {"rock", "paper", "scissors"};
     
     // Player's turn
-    printf("Rock, Paper, or Scissor?: ");
+    printf("Rock, Paper, or Scissors?: ");
     fgets(playerInput, sizeof(playerInput), stdin);
     playerInput[strcspn(playerInput, "\n")] = '\0';
 
@@ -80,9 +80,9 @@ void gameLogic() {
 	    // -----------------
 
 	    // ----------------- Architecture -----------------------
-	    // rock vs rock, rock vs paper, rock vs scissor
-	    // paper vs rock, paper vs paper, paper vs scissor
-	    // scissor vs rock, scissor vs paper, scissor vs scissor
+	    // rock vs rock, rock vs paper, rock vs scissors
+	    // paper vs rock, paper vs paper, paper vs scissors
+	    // scissors vs rock, scissors vs paper, scissors vs scissors
 	    // ------------------------------------------------------
 	
 	    // rock vs paper
@@ -93,7 +93,7 @@ void gameLogic() {
 	        printf("Computer wins!\n\n");
 	    }
 	
-	    // rock vs scissor
+	    // rock vs scissors
 	    else if (strcmp(playerInput, choices[0]) == 0 && strcmp(computerChoice, choices[2]) == 0) {
 	        printf("Player wins!\n\n");
 	    }
@@ -109,7 +109,7 @@ void gameLogic() {
 	        printf("Computer wins!\n\n");
 	    }
 
-	    // paper vs scissor
+	    // paper vs scissors
 	    else if (strcmp(playerInput, choices[2]) == 0 && strcmp(computerChoice, choices[1]) == 0) {
 	        printf("Player wins!\n\n");
 	    }
@@ -117,7 +117,7 @@ void gameLogic() {
 	        printf("Computer wins!\n\n");
 	    }
 
-	    // scissor vs rock and scissor vs paper not needed
+	    // scissors vs rock and scissors vs paper not needed
 	    // logic was implemented, so now the remaining thing left is draw
 	    else {
             printf("Draw!\n\n");
