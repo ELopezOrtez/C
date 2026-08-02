@@ -16,5 +16,5 @@ gcc main.c -o main
 
 Result:
 <p align="center">
-    <img src="/Rock,Paper,Scissor/screenshot/miniGame.png" alt="Mini Game In Action" width="600">
+    <img src="Rock,Paper,Scissors/screenshot/miniGame.png" alt="Mini Game In Action" width="600">
 </p>
